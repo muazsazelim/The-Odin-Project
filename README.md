@@ -1,4 +1,4 @@
-# the-odin-project
+# The-Odin-Project
 The Odin Project
 
 All files and projects related the TOP
