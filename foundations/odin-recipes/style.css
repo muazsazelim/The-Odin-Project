@@ -2,23 +2,44 @@ h1 {
     color: darkslategrey;
     font-weight: bold;
     background-color: bisque;
+    padding: 10px;
+    margin: 0;
 }
 
 h2 {
     color: darkgreen;
     font: bold;
     background-color: lightgreen;
+    padding: 10px;
+    margin: 0;
 }
 
 p {
     background-color: lightcoral;
     color: darkblue;
+    margin: 5px 0;
+    padding: 10px;
 }
 
 ul {
     background-color: beige;
+    margin: 10px 0;
+}
+
+ul li {
+    padding: 5px;
 }
 
 ol {
     background-color: lightblue;
+    margin: 0;
+}
+
+ol li {
+    padding: 5px;
+}
+
+img {
+    margin: 10px 0;
+    display: inline;
 }
