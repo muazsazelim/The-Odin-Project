@@ -35,3 +35,42 @@ let percentage = actual / max
 
 console.log(percentage)
 
+function add7(num) {
+    return num + 7
+}
+
+function multiply(num1, num2) {
+    return num1 * num2
+}
+
+function capitalize(str) {
+    if (typeof str !== "string" || str.length === 0) {
+      return ""; // Return an empty string for invalid input
+    }
+    
+    // Convert the first letter to uppercase and the rest to lowercase
+    return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+}
+
+function lastLetter(str) {
+    if (typeof str !== "string" || str.length === 0) {
+        return ""
+    }
+
+    return str.charAt(str.length - 1)
+}
+
+console.log(add7(1))
+console.log(multiply(2, 4))
+console.log(capitalize(9))
+console.log(capitalize("test"))
+console.log(lastLetter())
+console.log(lastLetter("cool"))
+
+
+
+
+
+
+
+
